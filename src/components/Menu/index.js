@@ -1,6 +1,7 @@
 import React from 'react';
 
-import ButtonLink from '../components/ButtonLink';
+import Button from '../Button'
+// import ButtonLink from '../components/ButtonLink';
 import Logo from '../../assets/images/logo.png'
 import './styles.css'
 
@@ -11,9 +12,9 @@ function Menu () {
         <img className="Logo" src={Logo} alt="Logo TCFlix"/>
       </a>
 
-      <ButtonLink className="ButtonLink" href="/">
+      <Button className="ButtonLink" href="/">
         Novo Vídeo
-      </ButtonLink>
+      </Button>
     </nav>
   );
 }
