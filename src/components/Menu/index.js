@@ -1,7 +1,6 @@
 import React from 'react';
 
 import Button from '../Button'
-// import ButtonLink from '../components/ButtonLink';
 import Logo from '../../assets/images/logo.png'
 import './styles.css'
 

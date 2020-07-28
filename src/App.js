@@ -1,11 +1,23 @@
 import React from 'react';
 import Menu from './components/Menu'
+import BannerMain from './components/BannerMain'
+import Button from './components/Button'
+import Carousel from './components/Carousel'
+import Footer from './components/Footer'
+import dadosIniciais from './data/dados_iniciais.json'
 
 function App() {
   return (
-    <div>
+    <div style={{background: '#141414'}}>
       <Menu />
-      Hello World
+      
+      <BannerMain
+        videoTitle={dadosIniciais.categorias[0].videos[0].titulo}
+        url={dadosIniciais.categorias[0].videos[0].url}
+        videoDescription="Whaaaatever"
+      />
+      
+
     </div>
   );
 }
