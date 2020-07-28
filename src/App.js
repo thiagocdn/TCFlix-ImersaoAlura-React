@@ -1,7 +1,6 @@
 import React from 'react';
 import Menu from './components/Menu'
 import BannerMain from './components/BannerMain'
-import Button from './components/Button'
 import Carousel from './components/Carousel'
 import Footer from './components/Footer'
 import dadosIniciais from './data/dados_iniciais.json'
@@ -16,7 +15,16 @@ function App() {
         url={dadosIniciais.categorias[0].videos[0].url}
         videoDescription="Whaaaatever"
       />
-      
+
+      {dadosIniciais.categorias.map(categoria => {
+        return(
+          <Carousel
+            category={categoria}
+          />
+        )
+      })}
+
+      <Footer />
 
     </div>
   );
