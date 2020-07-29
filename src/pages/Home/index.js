@@ -18,7 +18,7 @@ function Home() {
 
       {dadosIniciais.categorias.map(categoria => {
         return(
-          <Carousel
+          <Carousel key={categoria.titulo}
             category={categoria}
           />
         )
