@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import PageDefault from '../../../components/PageDefault';
 import FormField from '../../../components/FormField';
+import Button from '../../../components/Button';
 
 function CadastroCategoria() {
   const [categorias, setCategorias] = useState([]);
@@ -66,9 +67,9 @@ function CadastroCategoria() {
           onChange={handleFormChange}
         />
 
-        <button>
+        <Button as="button">
           Cadastrar
-        </button>
+        </Button>
       </form>
 
       <ul>
