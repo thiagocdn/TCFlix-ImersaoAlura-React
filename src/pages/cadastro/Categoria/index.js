@@ -1,41 +1,46 @@
 import React, { useState } from 'react';
-import PageDefault from '../../../components/PageDefault';
 import { Link } from 'react-router-dom';
+import PageDefault from '../../../components/PageDefault';
 import FormField from '../../../components/FormField';
 
 function CadastroCategoria() {
-  const [ categorias, setCategorias ] = useState([]);
+  const [categorias, setCategorias] = useState([]);
 
   const valoresIniciais = {
     nome: '',
     descricao: '',
     cor: '',
-  }
-  const [ values, setValues ] = useState(valoresIniciais);
+  };
+  const [values, setValues] = useState(valoresIniciais);
 
   function setValue(chave, valor) {
     setValues({
       ...values,
-      [chave]: valor
-    })
+      [chave]: valor,
+    });
   }
 
   function handleFormChange(event) {
     setValue(
       event.target.getAttribute('name'),
-      event.target.value
-    )
+      event.target.value,
+    );
   }
 
   return (
     <PageDefault>
-      <h1>Cadastro de Categoria: {values.nome}</h1>
+      <h1>
+        Cadastro de Categoria:
+        {' '}
+        {values.nome}
+      </h1>
 
       <form onSubmit={(event) => {
         event.preventDefault();
         setCategorias([...categorias, values]);
         setValues(valoresIniciais);
-      }}>
+      }}
+      >
 
         <FormField
           label="Nome da Categoria"
@@ -44,7 +49,6 @@ function CadastroCategoria() {
           value={values.nome}
           onChange={handleFormChange}
         />
-
 
         <FormField
           label="Descrição"
@@ -68,21 +72,18 @@ function CadastroCategoria() {
       </form>
 
       <ul>
-        {categorias.map((categoria, indice) => {
-          return (
-            <li key={`${categoria.nome}${indice}`}>
-              {categoria.nome}
-            </li>
-          )
-        })}
+        {categorias.map((categoria, indice) => (
+          <li key={`${categoria.nome}${indice}`}>
+            {categoria.nome}
+          </li>
+        ))}
       </ul>
-
 
       <Link to="/">
         Ir para home
       </Link>
     </PageDefault>
-  )
+  );
 }
 
 export default CadastroCategoria;
