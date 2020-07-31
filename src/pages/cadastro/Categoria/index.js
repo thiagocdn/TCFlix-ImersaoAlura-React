@@ -29,7 +29,7 @@ function CadastroCategoria() {
   }
 
   useEffect(() => {
-    const URL = 'http://localhost:8080/categorias';
+    const URL = 'https://tcflix-backend.herokuapp.com/categorias';
     fetch(URL).then(async (response) => {
       const resposta = await response.json();
       setCategorias([
