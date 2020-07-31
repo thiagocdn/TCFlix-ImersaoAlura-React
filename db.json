@@ -2,232 +2,129 @@
   "categorias": [
     {
       "id": 1,
-      "titulo": "Front End",
-      "cor": "#6BD1FF",
+      "titulo": "Desafios Bootcamp - GoStack Rocketseat",
+      "cor": "#00C86F",
       "link_extra": {
-        "text": "Formação de Front End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-front-end"
+        "text": "Desafios Bootcamp - GoStack Rocketseat",
+        "url": "https://www.youtube.com/playlist?list=PLV3k8vCgnJAx4v0yoiK3rWhJKdR9KPzJ_"
       }
     },
     {
       "id": 2,
-      "titulo": "Back End",
-      "cor": "#00C86F",
+      "titulo": "Desafios Bootcamp - Acelera Dev Python - Codenation",
+      "cor": "#6BD1FF",
       "link_extra": {
-        "text": "Cursos de Back End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-programacao"
+        "text": "Desafios Bootcamp - Acelera Dev Python - Codenation",
+        "url": "https://www.youtube.com/playlist?list=PLV3k8vCgnJAzcT4_Hh9CH0F3RIPHGVQcJ"
       }
     },
     {
       "id": 3,
-      "titulo": "Data Science e Inteligência Artificial",
+      "titulo": "Reviews e Aleatórios",
       "cor": "#9cd33b",
       "link_extra": {
-        "text": "Cursos de Data Science na Alura",
-        "url": "https://www.alura.com.br/cursos-online-mobile"
-      }
-    },
-    {
-      "id": 4,
-      "titulo": "Filmes",
-      "cor": "orange"
-    },
-    {
-      "id": 5,
-      "titulo": "Games",
-      "cor": "red",
-      "link_extra": {
-        "text": "Formação de Jogos na Alura",
-        "url": "https://www.alura.com.br/cursos-online-front-end"
+        "text": "Vídeos de Reviews e Aleatórios",
+        "url": "https://www.youtube.com/ThiagoCedran/"
       }
     }
   ],
   "videos": [
     {
       "id": 1,
-      "categoriaId": 1,
-      "titulo": "SEO com React",
-      "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
+      "categoriaId": 2,
+      "titulo": "Desafio 01",
+      "url": "https://www.youtube.com/watch?v=N21o2ax2O9g&list=PLV3k8vCgnJAzcT4_Hh9CH0F3RIPHGVQcJ&index=2&t=0s"
     },
     {
       "id": 2,
-      "categoriaId": 1,
-      "titulo": "O que faz uma desenvolvedora front-end? #HipstersPontoTube",
-      "url": "https://www.youtube.com/watch?v=ZY3-MFxVdEw"
+      "categoriaId": 2,
+      "titulo": "Desafio 02",
+      "url": "https://www.youtube.com/watch?v=vbteGEbD7eA&list=PLV3k8vCgnJAzcT4_Hh9CH0F3RIPHGVQcJ&index=4&t=0s"
     },
     {
       "id": 3,
-      "categoriaId": 1,
-      "titulo": "Componentização com VanillaJS #AluraMais",
-      "url": "https://www.youtube.com/watch?v=LatCKpcOMak"
+      "categoriaId": 2,
+      "titulo": "Desafio 03",
+      "url": "https://www.youtube.com/watch?v=gH8VSmSRj3I&list=PLV3k8vCgnJAzcT4_Hh9CH0F3RIPHGVQcJ&index=5&t=0s"
     },
     {
       "id": 4,
-      "categoriaId": 1,
-      "titulo": "Pare de chutar e aprenda a display: inline #01",
-      "url": "https://www.youtube.com/watch?v=5PS6ku8NzIE"
+      "categoriaId": 2,
+      "titulo": "Desafio 04",
+      "url": "https://www.youtube.com/watch?v=7IkDE1GG330&list=PLV3k8vCgnJAzcT4_Hh9CH0F3RIPHGVQcJ&index=6&t=0s"
     },
     {
       "id": 5,
-      "categoriaId": 1,
-      "titulo": "Template String: Interpolando strings com JavaScript #AluraMais",
-      "url": "https://www.youtube.com/watch?v=ORI_HTXaIw0"
+      "categoriaId": 2,
+      "titulo": "Desafio 05",
+      "url": "https://www.youtube.com/watch?v=s963t30VtDk&list=PLV3k8vCgnJAzcT4_Hh9CH0F3RIPHGVQcJ&index=7&t=0s"
     },
+
     {
       "id": 6,
       "categoriaId": 1,
-      "titulo": "Qual é a melhor linguagem de programação? #HipstersPontoTube",
-      "url": "https://www.youtube.com/watch?v=Uh-GNH-t89w"
+      "titulo": "Desafio 02",
+      "url": "https://www.youtube.com/watch?v=oC-Ya9ST4gw&list=PLV3k8vCgnJAx4v0yoiK3rWhJKdR9KPzJ_&index=9&t=0s"
     },
     {
       "id": 7,
       "categoriaId": 1,
-      "titulo": "Novidades do Angular v9",
-      "url": "https://www.youtube.com/watch?v=34uHo7hFmG0"
+      "titulo": "Desafio 03",
+      "url": "https://www.youtube.com/watch?v=-fnIv-xyKu8&list=PLV3k8vCgnJAx4v0yoiK3rWhJKdR9KPzJ_&index=8&t=0s"
     },
     {
       "id": 8,
-      "categoriaId": 2,
-      "titulo": "PERCURSO em NÍVEL em ÁRVORE BINÁRIA | Estruturas de Dados #14",
-      "url": "https://www.youtube.com/watch?v=UOK7nS2E9xM"
+      "categoriaId": 1,
+      "titulo": "Desafio 04",
+      "url": "https://www.youtube.com/watch?v=IFGVq_INIcg&list=PLV3k8vCgnJAx4v0yoiK3rWhJKdR9KPzJ_&index=7&t=0s"
     },
     {
       "id": 9,
-      "categoriaId": 2,
-      "titulo": "Coders4Tips - S01E04: GitHub CLI - Uma Nova Experiência no Github!",
-      "url": "https://www.youtube.com/watch?v=6o6-bKOZOEY"
+      "categoriaId": 1,
+      "titulo": "Desafio 05",
+      "url": "https://www.youtube.com/watch?v=Sj5n7AVkf20&list=PLV3k8vCgnJAx4v0yoiK3rWhJKdR9KPzJ_&index=6&t=0s"
     },
     {
       "id": 10,
-      "categoriaId": 2,
-      "titulo": "Programei 4 robôs que criam vídeos para mim no YouTube",
-      "url": "https://www.youtube.com/watch?v=kjhu1LEmRpY"
+      "categoriaId": 1,
+      "titulo": "Desafio 06",
+      "url": "https://www.youtube.com/watch?v=WAIiVSyNoNA&list=PLV3k8vCgnJAx4v0yoiK3rWhJKdR9KPzJ_&index=5&t=0s"
     },
     {
       "id": 11,
-      "categoriaId": 2,
-      "titulo": "API: Dicionário do Programador",
-      "url": "https://www.youtube.com/watch?v=vGuqKIRWosk"
+      "categoriaId": 1,
+      "titulo": "Desafio 07",
+      "url": "https://www.youtube.com/watch?v=wk45UFt8jSc&list=PLV3k8vCgnJAx4v0yoiK3rWhJKdR9KPzJ_&index=4&t=0s"
     },
     {
       "id": 12,
-      "categoriaId": 2,
-      "titulo": "Usando Git Direito",
-      "url": "https://www.youtube.com/watch?v=6OokP-NE49k"
+      "categoriaId": 1,
+      "titulo": "Desafio 09",
+      "url": "https://www.youtube.com/watch?v=S4Z5iMZpDmU&list=PLV3k8vCgnJAx4v0yoiK3rWhJKdR9KPzJ_&index=2&t=0s"
     },
     {
       "id": 13,
-      "categoriaId": 3,
-      "titulo": "Teste de Turing",
-      "url": "https://www.youtube.com/watch?v=BaPGU4JWa34"
+      "categoriaId": 1,
+      "titulo": "Lógica Desafio 09",
+      "url": "https://www.youtube.com/watch?v=fbdB3Ul1ZHw&list=PLV3k8vCgnJAx4v0yoiK3rWhJKdR9KPzJ_&index=3&t=0s"
     },
     {
       "id": 14,
-      "categoriaId": 3,
-      "titulo": "O que é Data Science?",
-      "url": "https://www.youtube.com/watch?v=5b9Z8toVaAU&t=9s"
+      "categoriaId": 1,
+      "titulo": "Desafio 10",
+      "url": "https://www.youtube.com/watch?v=atZax_qr6Vk&list=PLV3k8vCgnJAx4v0yoiK3rWhJKdR9KPzJ_&index=10&t=0s"
     },
     {
       "id": 15,
       "categoriaId": 3,
-      "titulo": "Melhor forma de aprender Python",
-      "url": "https://www.youtube.com/watch?v=Gojqw9BQ5qY"
+      "titulo": "Review Bootcamp GoStack Rocketseat",
+      "url": "https://www.youtube.com/watch?v=iIq3WJg_Hkg"
     },
     {
       "id": 16,
       "categoriaId": 3,
-      "titulo": "Como ingressar no mercado de Data Science?",
-      "url": "https://www.youtube.com/watch?v=gxyjGmOV540"
-    },
-    {
-      "id": 17,
-      "categoriaId": 4,
-      "titulo": "Interestellar",
-      "url": "https://www.youtube.com/watch?v=frD_IiY_A3E"
-    },
-    {
-      "id": 18,
-      "categoriaId": 4,
-      "titulo": "Gattaca",
-      "url": "https://www.youtube.com/watch?v=Dl0tYLbrhhs"
-    },
-    {
-      "id": 19,
-      "categoriaId": 4,
-      "titulo": "A Chegada",
-      "url": "https://www.youtube.com/watch?v=rNciXGzYZms"
-    },
-    {
-      "id": 20,
-      "categoriaId": 4,
-      "titulo": "Feitiço do Tempo",
-      "url": "https://www.youtube.com/watch?v=zi8d69P9NvI"
-    },
-    {
-      "id": 21,
-      "categoriaId": 5,
-      "titulo": "Final Fantasy 7",
-      "url": "https://www.youtube.com/watch?v=I_ATSCTnUD8"
-    },
-    {
-      "id": 22,
-      "categoriaId": 5,
-      "titulo": "Assassins Creed Valhalla",
-      "url": "https://www.youtube.com/watch?v=KDfdjB9uL0U"
-    },
-    {
-      "id": 23,
-      "categoriaId": 5,
-      "titulo": "God of War 4",
-      "url": "https://www.youtube.com/watch?v=FyIwEFXOcaE"
-    },
-    {
-      "id": 24,
-      "categoriaId": 5,
-      "titulo": "Resident Evil 8",
-      "url": "https://www.youtube.com/watch?v=JSapXD9vxYA"
-    },
-    {
-      "titulo": "Review bootcamp",
-      "url": "https://www.youtube.com/watch?v=iIq3WJg_Hkg",
-      "categoriaId": 1,
-      "id": 25
-    },
-    {
-      "titulo": "Review bootcamp",
-      "url": "https://www.youtube.com/watch?v=iIq3WJg_Hkg",
-      "categoriaId": 1,
-      "id": 26
-    },
-    {
-      "titulo": "Review bootcamp",
-      "url": "https://www.youtube.com/watch?v=iIq3WJg_Hkg",
-      "categoriaId": 2,
-      "id": 27
-    },
-    {
-      "titulo": "Review bootcamp",
-      "url": "https://www.youtube.com/watch?v=iIq3WJg_Hkg",
-      "categoriaId": 3,
-      "id": 28
-    },
-    {
-      "titulo": "Review bootcamp",
-      "url": "https://www.youtube.com/watch?v=iIq3WJg_Hkg",
-      "categoriaId": 1,
-      "id": 29
-    },
-    {
-      "titulo": "Review bootcamp",
-      "url": "https://www.youtube.com/watch?v=iIq3WJg_Hkg",
-      "categoriaId": 1,
-      "id": 30
-    },
-    {
-      "titulo": "Review bootcamp",
-      "url": "https://www.youtube.com/watch?v=iIq3WJg_Hkg",
-      "categoriaId": 2,
-      "id": 31
+      "titulo": "Review TV JVC 50\"",
+      "url": "https://www.youtube.com/watch?v=DJUINwFBWWM"
     }
   ]
 }

@@ -27,7 +27,7 @@ function Home() {
           <BannerMain
             videoTitle={dadosIniciais[0].videos[0].titulo}
             url={dadosIniciais[0].videos[0].url}
-            videoDescription="Whaaaatever"
+            videoDescription="Vídeos dos Desafios feitos durante cursos e bootcamps"
           />
         )}
       {dadosIniciais.map((categoria) => (
