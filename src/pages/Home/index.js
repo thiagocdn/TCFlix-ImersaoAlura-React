@@ -1,32 +1,43 @@
-import React from 'react';
-import Menu from '../../components/Menu'
-import BannerMain from '../../components/BannerMain'
-import Carousel from '../../components/Carousel'
-import Footer from '../../components/Footer'
-import dadosIniciais from '../../data/dados_iniciais.json'
+import React, { useEffect, useState } from 'react';
+import BannerMain from '../../components/BannerMain';
+import Carousel from '../../components/Carousel';
+import categoriasRepository from '../../repositories/categorias';
+import PageDefault from '../../components/PageDefault';
+
+// import dadosIniciais from '../../data/dados_iniciais.json';
 
 function Home() {
+  const [dadosIniciais, setDadosIniciais] = useState([]);
+  useEffect(() => {
+    categoriasRepository.getAllWithVideos()
+      .then((categoriasComVideos) => {
+        setDadosIniciais(categoriasComVideos);
+      })
+      .catch((err) => {
+        console.log(err.message);
+      });
+  }, []);
+
   return (
-    <div style={{background: '#141414'}}>
-      <Menu />
-      
-      <BannerMain
-        videoTitle={dadosIniciais.categorias[0].videos[0].titulo}
-        url={dadosIniciais.categorias[0].videos[0].url}
-        videoDescription="Whaaaatever"
-      />
+    <PageDefault paddingAll={0}>
 
-      {dadosIniciais.categorias.map(categoria => {
-        return(
-          <Carousel key={categoria.titulo}
-            category={categoria}
+      {dadosIniciais.length === 0
+        ? (<div>Loading...</div>)
+        : (
+          <BannerMain
+            videoTitle={dadosIniciais[0].videos[0].titulo}
+            url={dadosIniciais[0].videos[0].url}
+            videoDescription="Whaaaatever"
           />
-        )
-      })}
+        )}
+      {dadosIniciais.map((categoria) => (
+        <Carousel
+          key={categoria.titulo}
+          category={categoria}
+        />
+      ))}
 
-      <Footer />
-
-    </div>
+    </PageDefault>
   );
 }
 
